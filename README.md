@@ -43,13 +43,15 @@
 
 ## 📊 GitHub at a Glance
 
+<!-- PROFILE OVERVIEW -->
 <p align="center">
   <img width="90%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=HarshMishra1412&theme=tokyonight" />
 </p>
 
+<!-- STATS + REAL STREAK -->
 <p align="center">
-  <img width="45%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=HarshMishra1412&theme=tokyonight" />
-  <img width="45%" src="https://github-profile-summary-cards.vercel.app/api/cards/streak?username=HarshMishra1412&theme=tokyonight" />
+  <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=HarshMishra1412&theme=tokyonight" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=HarshMishra1412&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
