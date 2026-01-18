@@ -40,16 +40,23 @@
 ![LTspice](https://img.shields.io/badge/LTspice-900?style=for-the-badge)
 
 ---
-## 📈 Performance Snapshot
+## 📊 GitHub at a Glance
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=HarshMishra1412&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=7aa2f7&icon_color=bb9af7&text_color=c0caf5" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=HarshMishra1412&theme=tokyonight&hide_border=true&background=00000000&stroke=00000000&ring=7aa2f7&fire=bb9af7&currStreakLabel=c0caf5" />
+  <img width="60%" src="https://github-readme-stats.vercel.app/api?username=HarshMishra1412&show_icons=true&hide_border=true&bg_color=30,1a1b26,24283b&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7" />
 </p>
 
 <p align="center">
-  <em>Consistency > intensity. Showing up daily.</em>
+  <img width="60%" src="https://github-readme-streak-stats.herokuapp.com/?user=HarshMishra1412&hide_border=true&background=30,1a1b26,24283b&ring=bb9af7&fire=7aa2f7&currStreakLabel=c0caf5" />
 </p>
+
+<p align="center">
+  <sub>Building momentum through consistency, not noise.</sub>
+</p>
+<p align="center">
+  <img width="90%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=HarshMishra1412&theme=tokyonight" />
+</p>
+
 
 ---
 
