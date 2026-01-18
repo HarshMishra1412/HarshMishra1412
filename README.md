@@ -36,12 +36,13 @@
 ## 🔥 GitHub Streak
 
 <p align="center">
-  <img width="75%" src="https://github-readme-streak-stats.herokuapp.com/?user=HarshMishra1412&theme=tokyonight&hide_border=true&background=30,1a1b26,24283b&ring=bb9af7&fire=7aa2f7&currStreakLabel=c0caf5" />
+  <img width="75%" src="https://streak-stats.demolab.com?user=HarshMishra1412&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
   <sub>Showing up daily. Letting consistency speak.</sub>
 </p>
+
 
 ---
 
