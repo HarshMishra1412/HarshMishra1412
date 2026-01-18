@@ -40,15 +40,15 @@
 ![LTspice](https://img.shields.io/badge/LTspice-900?style=for-the-badge)
 
 ---
-
-## 📊 GitHub Performance
+## 📈 Performance Snapshot
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=HarshMishra1412&show_icons=true&theme=radical&hide_border=true" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=HarshMishra1412&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=7aa2f7&icon_color=bb9af7&text_color=c0caf5" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=HarshMishra1412&theme=tokyonight&hide_border=true&background=00000000&stroke=00000000&ring=7aa2f7&fire=bb9af7&currStreakLabel=c0caf5" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=HarshMishra1412&theme=radical&hide_border=true" />
+  <em>Consistency > intensity. Showing up daily.</em>
 </p>
 
 ---
