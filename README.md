@@ -2,24 +2,25 @@
 <h3 align="center">ECE Student • Problem Solver • Builder</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?center=true&vCenter=true&width=650&lines=ECE+brain+with+a+software+mindset;DSA+%7C+Python+%7C+ECE;Consistency+is+non-negotiable" />
+  <img src="https://readme-typing-svg.herokuapp.com?center=true&vCenter=true&width=650&lines=ECE+brain+with+a+software+mindset;DSA+%7C+Python+%7C+Web+Development;Consistency+is+non-negotiable" />
 </p>
 
 ---
 
 ## 🧠 Who Am I?
 - 🎓 Electronics & Communication Engineering student  
-- 🧩 Focused on **DSA & problem-solving**
-- 🛠 Building **small, practical ECE projects**
-- 💻 Writing clean code in **Python & C**
+- 🧩 Focused on **problem-solving & fundamentals**
+- 🛠 Building **ECE + software projects**
+- 💻 Python, C, and Web technologies  
 - 📈 Long-term mindset: discipline > motivation  
 
 ---
 
 ## ⚙️ What I Work On
-- 🔁 Daily DSA practice (Python)
-- 🔌 ECE mini projects (circuits, signals, logic)
-- 🧠 Strengthening fundamentals through consistency  
+- 🔁 **DSA & problem-solving** using Python  
+- 🌐 **Web Development** (HTML, CSS, JavaScript)  
+- 🔌 **ECE mini projects** (circuits, signals, logic)  
+- 🧠 Improving logic, structure, and consistency daily  
 
 ---
 
@@ -46,18 +47,17 @@
   <img width="90%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=HarshMishra1412&theme=tokyonight" />
 </p>
 
+---
+
+## 🔥 GitHub Streak
+
 <p align="center">
-  <img width="45%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=HarshMishra1412&theme=tokyonight" />
-  <img width="45%" src="https://streak-stats.demolab.com?user=HarshMishra1412&theme=tokyonight&hide_border=true" />
+  <img width="75%" src="https://streak-stats.demolab.com?user=HarshMishra1412&theme=tokyonight&hide_border=true" />
 </p>
 
-### 🔥 Streak Details
-- 🔥 **Current Streak:** _update daily_ days  
-- 🏆 **Longest Streak:** _update manually_ days  
-- 📊 **Total Contributions (2026):** 8+  
-- 📁 **Public Repositories:** 3  
-
-> _Focusing on daily progress, not vanity metrics._
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?center=true&vCenter=true&width=420&lines=Showing+up+daily.;Building+habits+that+compound.;Letting+consistency+speak." />
+</p>
 
 ---
 
