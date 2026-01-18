@@ -2,7 +2,7 @@
 <h3 align="center">ECE Student • Problem Solver • Builder</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?center=true&vCenter=true&width=600&lines=ECE+brain+with+a+software+mindset;DSA+%7C+LeetCode+%7C+Python+%7C+ECE+Projects;Consistency+is+non-negotiable" />
+  <img src="https://readme-typing-svg.herokuapp.com?center=true&vCenter=true&width=650&lines=ECE+brain+with+a+software+mindset;DSA+%7C+LeetCode+%7C+Python+%7C+ECE+Projects;Consistency+is+non-negotiable" />
 </p>
 
 ---
@@ -12,15 +12,15 @@
 - 🧩 Focused on **DSA & problem-solving**
 - 🛠 Building **small, practical ECE projects**
 - 💻 Writing clean code in **Python & C**
-- 📈 Playing the long game: discipline > motivation
+- 📈 Long-term mindset: discipline > motivation
 
 ---
 
 ## ⚙️ What I Work On
-- 🔁 DSA practice in Python  
-- 🧠 LeetCode problem solving  
-- 🔌 ECE mini projects (circuits, signals, logic)  
-- 🧰 Small software projects to sharpen fundamentals  
+- 🔁 Daily DSA practice (Python)
+- 🧠 LeetCode problem solving
+- 🔌 ECE mini projects (circuits, signals, logic)
+- 🧰 Small software projects for fundamentals
 
 ---
 
