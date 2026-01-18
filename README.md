@@ -49,7 +49,7 @@
 
 <p align="center">
   <img width="45%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=HarshMishra1412&theme=tokyonight" />
-  <img width="45%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=HarshMishra1412&theme=tokyonight&utcOffset=5.5" />
+  <img width="45%" src="https://github-profile-summary-cards.vercel.app/api/cards/streak?username=HarshMishra1412&theme=tokyonight" />
 </p>
 
 <p align="center">
@@ -60,5 +60,3 @@
 
 ## 📌 Philosophy
 > **ECE brain. Software mindset.**
-
-
