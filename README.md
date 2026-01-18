@@ -2,25 +2,25 @@
 <h3 align="center">ECE Student • Problem Solver • Builder</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?center=true&vCenter=true&width=550&lines=ECE+brain+with+a+software+mindset;DSA+%7C+LeetCode+%7C+Python+%7C+ECE+Projects;Consistency+is+non-negotiable" />
+  <img src="https://readme-typing-svg.herokuapp.com?center=true&vCenter=true&width=600&lines=ECE+brain+with+a+software+mindset;DSA+%7C+LeetCode+%7C+Python+%7C+ECE+Projects;Consistency+is+non-negotiable" />
 </p>
 
 ---
 
 ## 🧠 Who Am I?
 - 🎓 Electronics & Communication Engineering student  
-- 🧩 Strong focus on **DSA & problem-solving**
-- 🛠 Building **small but practical ECE projects**
-- 💻 Writing clean, readable code in **Python & C**
-- 📈 Believer in *systems, discipline, and daily progress*
+- 🧩 Focused on **DSA & problem-solving**
+- 🛠 Building **small, practical ECE projects**
+- 💻 Writing clean code in **Python & C**
+- 📈 Playing the long game: discipline > motivation
 
 ---
 
 ## ⚙️ What I Work On
-- 🔁 **DSA in Python** (daily practice mindset)
-- 🧠 **LeetCode problem solving**
-- 🧪 **Small ECE projects** (signals, circuits, logic)
-- 🧰 Mini software projects to sharpen fundamentals
+- 🔁 DSA practice in Python  
+- 🧠 LeetCode problem solving  
+- 🔌 ECE mini projects (circuits, signals, logic)  
+- 🧰 Small software projects to sharpen fundamentals  
 
 ---
 
@@ -40,27 +40,25 @@
 ![LTspice](https://img.shields.io/badge/LTspice-900?style=for-the-badge)
 
 ---
+
 ## 📊 GitHub at a Glance
 
-<p align="center">
-  <img width="60%" src="https://github-readme-stats.vercel.app/api?username=HarshMishra1412&show_icons=true&hide_border=true&bg_color=30,1a1b26,24283b&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7" />
-</p>
-
-<p align="center">
-    <img width="60%" src="https://github-readme-stats.vercel.app/api?username=HarshMishra1412&show_icons=true&hide_border=true&cache_seconds=1800&bg_color=30,1a1b26,24283b&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7" />
-
-</p>
-
-<p align="center">
-  <sub>Building momentum through consistency, not noise.</sub>
-</p>
 <p align="center">
   <img width="90%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=HarshMishra1412&theme=tokyonight" />
 </p>
 
+<p align="center">
+  <img width="45%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=HarshMishra1412&theme=tokyonight" />
+  <img width="45%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=HarshMishra1412&theme=tokyonight&utcOffset=5.5" />
+</p>
+
+<p align="center">
+  <sub>Consistency compounds. Noise doesn’t.</sub>
+</p>
 
 ---
 
 ## 📌 Philosophy
 > **ECE brain. Software mindset.**
+
 
