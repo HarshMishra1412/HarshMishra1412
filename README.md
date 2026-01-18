@@ -2,25 +2,40 @@
 <h3 align="center">ECE Student • Problem Solver • Builder</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?center=true&vCenter=true&width=650&lines=ECE+brain+with+a+software+mindset;DSA+%7C+LeetCode+%7C+Python+%7C+ECE+Projects;Consistency+is+non-negotiable" />
+  <img src="https://readme-typing-svg.herokuapp.com?center=true&vCenter=true&width=650&lines=ECE+brain+with+a+software+mindset;Python+%7C+DSA+%7C+ECE+Projects;Consistency+is+non-negotiable" />
 </p>
 
 ---
 
-## 🧠 Who Am I?
+## 🧠 About Me
 - 🎓 Electronics & Communication Engineering student  
 - 🧩 Focused on **DSA & problem-solving**
-- 🛠 Building **small, practical ECE projects**
-- 💻 Writing clean code in **Python & C**
-- 📈 Long-term mindset: discipline > motivation
+- 🛠 Building **real, practical ECE + software projects**
+- 💻 Python, C, Web fundamentals
+- 📈 Long-term mindset: discipline > motivation  
 
 ---
 
-## ⚙️ What I Work On
+## 🚀 Featured Project
+
+### 🔍 Log Analyzer
+A **Python-based log analysis tool** designed to:
+- Parse and analyze large log files  
+- Identify errors, patterns, and anomalies  
+- Help debug systems faster and smarter  
+
+**Tech Used:** Python, File Handling, Data Processing  
+📌 _Built to practice real-world problem solving, not just syntax._
+
+👉 Repo: **Latency-Metrics-Analyzer**  
+
+---
+
+## ⚙️ What I’m Working On
 - 🔁 Daily DSA practice (Python)
-- 🧠 LeetCode problem solving
-- 🔌 ECE mini projects (circuits, signals, logic)
-- 🧰 Small software projects for fundamentals  
+- 🔌 Small ECE projects (signals, circuits, logic)
+- 🧠 Problem-solving mindset through projects
+- 🧰 Improving code readability & structure  
 
 ---
 
@@ -41,27 +56,15 @@
 
 ---
 
-## 📊 GitHub at a Glance
+## 🔥 GitHub Streak
 
 <p align="center">
-  <img width="90%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=HarshMishra1412&theme=tokyonight" />
+  <img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=HarshMishra1412&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
-  <img width="45%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=HarshMishra1412&theme=tokyonight" />
-  <img width="45%" src="https://github-readme-streak-stats.herokuapp.com/?user=HarshMishra1412&theme=tokyonight&hide_border=true" />
+  <sub>Showing up daily. Letting consistency speak.</sub>
 </p>
-
----
-
-## 📈 Stats Snapshot
-- 🔥 **Current Streak:** _Update daily_ days  
-- 🏆 **Longest Streak:** _Update manually_ days  
-- 📊 **Total Contributions (2026):** 8+  
-- 📁 **Public Repositories:** 3  
-- 🕒 **Joined GitHub:** 1 year ago  
-
-> _Tracking consistency publicly to stay accountable._
 
 ---
 
@@ -70,11 +73,11 @@
   <a href="https://github.com/HarshMishra1412">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" />
   </a>
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin" />
+  <a href="mailto:YOUR_GMAIL_ID@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-  <a href="https://leetcode.com/YOUR_LEETCODE_USERNAME">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
+  <a href="https://www.instagram.com/YOUR_INSTAGRAM_USERNAME">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
 </p>
 
