@@ -47,7 +47,8 @@
 </p>
 
 <p align="center">
-  <img width="60%" src="https://github-readme-streak-stats.herokuapp.com/?user=HarshMishra1412&hide_border=true&background=30,1a1b26,24283b&ring=bb9af7&fire=7aa2f7&currStreakLabel=c0caf5" />
+    <img width="60%" src="https://github-readme-stats.vercel.app/api?username=HarshMishra1412&show_icons=true&hide_border=true&cache_seconds=1800&bg_color=30,1a1b26,24283b&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7" />
+
 </p>
 
 <p align="center">
