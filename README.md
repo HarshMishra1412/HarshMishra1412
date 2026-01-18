@@ -20,7 +20,7 @@
 - 🔁 Daily DSA practice (Python)
 - 🧠 LeetCode problem solving
 - 🔌 ECE mini projects (circuits, signals, logic)
-- 🧰 Small software projects for fundamentals
+- 🧰 Small software projects for fundamentals  
 
 ---
 
@@ -43,19 +43,39 @@
 
 ## 📊 GitHub at a Glance
 
-<!-- PROFILE OVERVIEW -->
 <p align="center">
   <img width="90%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=HarshMishra1412&theme=tokyonight" />
 </p>
 
-<!-- STATS + REAL STREAK -->
 <p align="center">
-  <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=HarshMishra1412&theme=tokyonight" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=HarshMishra1412&theme=tokyonight&hide_border=true" />
+  <img width="45%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=HarshMishra1412&theme=tokyonight" />
+  <img width="45%" src="https://github-readme-streak-stats.herokuapp.com/?user=HarshMishra1412&theme=tokyonight&hide_border=true" />
 </p>
 
+---
+
+## 📈 Stats Snapshot
+- 🔥 **Current Streak:** _Update daily_ days  
+- 🏆 **Longest Streak:** _Update manually_ days  
+- 📊 **Total Contributions (2026):** 8+  
+- 📁 **Public Repositories:** 3  
+- 🕒 **Joined GitHub:** 1 year ago  
+
+> _Tracking consistency publicly to stay accountable._
+
+---
+
+## 🌐 Connect With Me
 <p align="center">
-  <sub>Consistency compounds. Noise doesn’t.</sub>
+  <a href="https://github.com/HarshMishra1412">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" />
+  </a>
+  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin" />
+  </a>
+  <a href="https://leetcode.com/YOUR_LEETCODE_USERNAME">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
+  </a>
 </p>
 
 ---
