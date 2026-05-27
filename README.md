@@ -1,150 +1,105 @@
-<h1 align="center">Hey 👋 I'm Harsh Mishra</h1>
-<h3 align="center">ECE Student &nbsp;•&nbsp; ML Builder &nbsp;•&nbsp; Problem Solver</h3>
+# Harsh Mishra
  
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=1000&center=true&vCenter=true&width=700&lines=ECE+brain+with+a+software+mindset;Multi-modal+AI+%7C+Machine+Learning+%7C+DSA;Building+things+that+actually+work.;Consistency+is+non-negotiable." />
-</p>
-<p align="center">
-  <a href="https://github.com/HarshMishra1412">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" />
-  </a>
-  <a href="mailto:YOUR_GMAIL@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-</p>
+ECE student building ML systems that solve real problems — not just Kaggle scores.
+ 
+Currently focused on multi-modal AI, model explainability, and deploying things that actually work.
+ 
+[Gmail](mailto:YOUR_GMAIL@gmail.com) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/YOUR_LINKEDIN) &nbsp;·&nbsp; [GitHub](https://github.com/HarshMishra1412)
+ 
 ---
  
-## 🧠 Who Am I?
+## Projects
  
-- 🎓 Electronics & Communication Engineering student
-- 🤖 Building **real ML systems** — not just notebooks, actual deployable pipelines
-- 🔌 Bridging **ECE hardware thinking** with software & AI
-- 📈 Long-term mindset: discipline > motivation
-- 💡 Currently exploring: multi-modal sensing, model explainability, IoT + ML
----
+### The Head Counter — Multi-Modal Library Occupancy Detection
  
-## 🚀 Featured Projects
+Fuses three independent sensing channels into a single real-time occupancy estimate for libraries. No manual counting. No single point of failure.
  
-### 🏛️ The Head Counter — Multi-Modal Library Occupancy Detection
- 
-> **Fuses camera + seat sensors + CO2 air quality into a single real-time occupancy estimate.**
- 
-A production-ready system that combines **3 independent sensing modalities** to detect how many people are inside a library — no manual counting needed.
- 
-| Channel | Model | Weight |
+| Channel | Technique | Fusion Weight |
 |---|---|---|
-| 📷 Camera (YOLOv8) | Custom-trained person detection | 25% |
-| 🪑 Seat sensors (Load Cell) | Linear Regression on voltage → weight | 55% |
-| 🌬️ CO2 sensor | Random Forest binary classifier | 20% |
+| Camera | YOLOv8 person detection | 25% |
+| Seat sensors | Load cell → Linear Regression | 55% |
+| Air quality | CO2 → Random Forest classifier | 20% |
  
-**Key design decisions:**
-- Seat sensor carries highest weight (55%) — direct per-seat physical measurement = most reliable ground truth
-- CO2 fills blind spots cameras can't cover (enclosed rooms, basements)
-- Weighted fusion (`np.dot`) reduces single-sensor failure noise
-```
-Output: Fused count → Capacity % → Status (OPEN / BUSY / FULL)
-```
+Seat sensors carry the highest weight because per-seat physical measurement is the most reliable ground truth. CO2 covers blind spots cameras can't reach. Weighted fusion via `np.dot` reduces noise from any single sensor failing.
  
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github)](https://github.com/HarshMishra1412/head-counter)
+Output: fused count → capacity % → status (OPEN / BUSY / FULL)
+ 
+[![View repo](https://img.shields.io/badge/View_repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/HarshMishra1412/head-counter)
+&nbsp;
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![YOLOv8](https://img.shields.io/badge/YOLOv8-purple?style=flat-square)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-7F52FF?style=flat-square)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
  
 ---
  
-### 📉 Customer Churn Predictor — XGBoost + SHAP
+### Customer Churn Predictor — XGBoost + SHAP
  
-> **Identifies telecom customers about to leave — before they actually do.**
+End-to-end ML pipeline that identifies telecom customers about to leave, before they do. Built with a focus on business outcome, not just model accuracy.
  
-An end-to-end ML pipeline that takes raw customer data and outputs an actionable churn probability with business-level risk tiers.
- 
-| Metric | Score |
+| Metric | Result |
 |---|---|
-| Churn Recall | **92%** |
+| Churn recall | 92% |
 | ROC-AUC | 0.76 |
 | Churners caught | 342 / 373 |
-| Estimated revenue saved | **$133,380** |
+| Estimated revenue saved | $133,380 |
  
-**What makes this more than just a model:**
-- 🔧 **Feature engineering** — `charges_per_month`, `is_new_customer`, `has_full_protection` and more
-- ⚖️ **SMOTE** — balanced 3:1 class imbalance without data leakage into test set
-- 🎯 **Threshold tuning** — lowered from 0.5 → 0.35, recall jumped from 60% → 92%
-- 🔍 **SHAP explainability** — per-customer prediction explanation, not just global importance
-- 📊 **Risk tiers** — HIGH / MEDIUM / LOW buckets for targeted retention spend
-```
-Key insight: Contract type (0.42 importance) is the #1 churn driver.
-Converting month-to-month → annual = single highest-impact retention move.
-```
+Key decisions: SMOTE to fix 3:1 class imbalance without data leakage. Threshold tuned from 0.5 → 0.35, recall jumped from 60% to 92%. SHAP added per-customer explainability on top of global feature importance. Customers bucketed into HIGH / MEDIUM / LOW risk tiers so retention spend goes where it matters.
  
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github)](https://github.com/HarshMishra1412/churn-prediction-model)
+Contract type is the strongest churn signal (importance 0.42). Converting month-to-month customers to annual contracts is the single highest-impact retention move the model reveals.
+ 
+[![View repo](https://img.shields.io/badge/View_repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/HarshMishra1412/churn-prediction-model)
+&nbsp;
 ![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat-square)
 ![SHAP](https://img.shields.io/badge/SHAP-0096FF?style=flat-square)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
  
 ---
  
-## 🛠 Tech Stack
+## Stack
  
-### Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+**Languages**
  
-### Machine Learning & AI
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge)
-![LightGBM](https://img.shields.io/badge/LightGBM-02BF8A?style=for-the-badge)
-![Ultralytics](https://img.shields.io/badge/YOLOv8-7F52FF?style=for-the-badge)
-![SHAP](https://img.shields.io/badge/SHAP-0096FF?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
  
-### Data & Visualization
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
-![Seaborn](https://img.shields.io/badge/Seaborn-4C9BE8?style=for-the-badge)
+**ML & AI**
  
-### Tools
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![LTspice](https://img.shields.io/badge/LTspice-900?style=for-the-badge)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat-square)
+![LightGBM](https://img.shields.io/badge/LightGBM-02BF8A?style=flat-square)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-7F52FF?style=flat-square)
+![SHAP](https://img.shields.io/badge/SHAP-0096FF?style=flat-square)
  
----
+**Data**
  
-## 📊 GitHub at a Glance
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C9BE8?style=flat-square)
  
-<p align="center">
-  <img width="90%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=HarshMishra1412&theme=tokyonight" />
-</p>
-<p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=HarshMishra1412&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HarshMishra1412&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
----
+**Tools**
  
-## 🔥 Streak
- 
-<p align="center">
-  <img width="75%" src="https://streak-stats.demolab.com?user=HarshMishra1412&theme=tokyonight&hide_border=true" />
-</p>
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&center=true&vCenter=true&width=500&lines=Showing+up+daily.;Building+habits+that+compound.;Letting+consistency+speak." />
-</p>
----
- 
-## 📌 Philosophy
- 
-> **ECE brain. Software mindset. ML heart.**
->
-> Every project I build has a real-world problem at its core — not just a benchmark to beat.
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
+![LTspice](https://img.shields.io/badge/LTspice-8B0000?style=flat-square)
  
 ---
  
+## GitHub Stats
+ 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=HarshMishra1412&label=Profile+Views&color=0e75b6&style=flat" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=HarshMishra1412&show_icons=true&theme=default&hide_border=true&hide_title=true&count_private=true" />
+  &nbsp;
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HarshMishra1412&layout=compact&theme=default&hide_border=true" />
 </p>
+<p align="center">
+  <img width="60%" src="https://streak-stats.demolab.com?user=HarshMishra1412&theme=default&hide_border=true" />
+</p>
+---
+ 
+<sub>ECE brain. Software mindset. Every project starts with a real problem.</sub>
+ 
